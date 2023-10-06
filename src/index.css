@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   font-family: 'Catamaran', sans-serif;
+}
+
+#header_nav li a .active {
+   color: #4F46E5!important;
+}
