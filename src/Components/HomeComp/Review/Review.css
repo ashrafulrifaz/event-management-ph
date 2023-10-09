@@ -1,0 +1,17 @@
+.banner-1{
+   background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../../../assets/banner-concert.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.swiper-pagination {
+   position: static;
+   margin-top: 20px;
+}
+.swiper-pagination-bullet {
+   width: 15px;
+   border-radius: 10px;
+}
+.swiper-pagination-bullet-active{
+   width: 25px;
+}

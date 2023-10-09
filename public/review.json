@@ -1,0 +1,38 @@
+[
+   {
+     "name": "John Smith",
+     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
+     "review_text": "Exceptional service! John is a true professional who made our event unforgettable. Exceptional service! John is a true professional who made our event unforgettable.",
+     "profession": "Event Planner"
+   },
+   {
+     "name": "Alice Johnson",
+     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
+     "review_text": "Alice's creativity and attention to detail transformed our wedding into a dream come true. Alice's creativity and attention to detail transformed our wedding into a dream come true.",
+     "profession": "Wedding Coordinator"
+   },
+   {
+     "name": "David Wilson",
+     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
+     "review_text": "David's musical talent added a magical touch to our special day. Highly recommended! David's musical talent added a magical touch to our special day. Highly recommended!",
+     "profession": "Musician"
+   },
+   {
+     "name": "Emily Davis",
+     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
+     "review_text": "Emily's floral arrangements were stunning. She truly has an eye for beauty. Emily's floral arrangements were stunning. She truly has an eye for beauty. Highly recommended!",
+     "profession": "Florist"
+   },
+   {
+     "name": "Michael Brown",
+     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
+     "review_text": "Michael's culinary expertise delighted our taste buds. A gourmet experience! Michael's culinary expertise delighted our taste buds. A gourmet experience! Highly recommended!",
+     "profession": "Chef"
+   },
+   {
+     "name": "Sophia Lee",
+     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
+     "review_text": "Sophia's photography skills captured our memories perfectly. A true artist! Sophia's photography skills captured our memories perfectly. A true artist! Highly recommended!",
+     "profession": "Photographer"
+   }
+] 

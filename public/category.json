@@ -1,0 +1,26 @@
+[
+   {
+      "id": "1",
+      "name": "Live Music"
+   },
+   {
+      "id": "2",
+      "name": "Comedy Show"
+   },
+   {
+      "id": "3",
+      "name": "Magic Show"
+   },
+   {
+      "id": "4",
+      "name": "Award Ceremony"
+   },
+   {
+      "id": "5",
+      "name": "Film Screenings"
+   },
+   {
+      "id": "6",
+      "name": "Theatre"
+   }
+]

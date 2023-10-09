@@ -1,37 +1,51 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
+import { useRef, useState, useEffect } from 'react';
+// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import './Banner.css';
+
+import "./Banner.css";
+
+// import required modules
+import { Autoplay, Navigation } from 'swiper/modules';
+import BannerCard from "./BannerCard";
 
 const Banner = () => {
+   const [bannerData, setBannerData] = useState([]);
+
+   useEffect(() => {
+      fetch('banner.json')
+         .then(res => res.json())
+         .then(data => setBannerData(data))
+   }, [])
+
    return (
-      <div className="h-screen">
+      <div className="min-h-[100vh] -z-10">
+         <div>
          <Swiper
-            // install Swiper modules
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={50}
-            slidesPerView={3}
-            navigation
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+               delay: 10000,
+               disableOnInteraction: false,
+            }}
+            pagination={{
+               clickable: true,
+            }}
+            navigation={true}
+            modules={[Autoplay, Navigation]}
+            className="mySwiper"
          >
-            <SwiperSlide>
-               {
-                  
-               }
-            </SwiperSlide>
-            ...
+            {
+               bannerData.map((banner,idx) => <SwiperSlide key={idx}><BannerCard banner={banner}></BannerCard></SwiperSlide>)
+            }
          </Swiper>
+         </div>
       </div>
-   );
-};
+  );
+}
+
 
 export default Banner;
