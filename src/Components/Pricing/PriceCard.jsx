@@ -1,10 +1,18 @@
 import checkImg from '../../assets/check.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+   duration: 2000, 
+   delay: 250, 
+   offset: 100,
+})
 
 const PriceCard = ({price}) => {
    const {name, features, item_price} = price
 
    return (
-      <div className="pt-12 pb-6 px-8 border border-indigo-200 overflow-hidden rounded-lg flex flex-col justify-between relative">
+      <div data-aos="fade-down-left" className="pt-12 pb-6 px-8 border border-indigo-200 overflow-hidden rounded-lg flex flex-col justify-between relative">
          <div>
             <h4 className="inline px-12 absolute top-5 -rotate-45 -left-10 uppercase font-semibold text-indigo-600 bg-indigo-200 pt-2 pb-1 rounded-lg mx-auto">{name}</h4>
             <h2 className="text-5xl font-bold text-center font-sans mt-6"><span className="font-semibold text-2xl">From</span> {item_price}</h2>

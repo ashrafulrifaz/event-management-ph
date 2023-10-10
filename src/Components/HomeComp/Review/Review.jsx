@@ -19,8 +19,8 @@ const Review = () => {
 
    return (
       <div className="py-10 max-w-[90%] mx-auto">         
-         <h2 className="text-center font-bold text-4xl">Upcoming Events</h2>
-         <p className="text-center text-lg mt-3 font-medium">The service we can provide for you</p>
+         <h2 className="text-center font-bold text-4xl">Client Review</h2>
+         <p className="text-center text-lg mt-3 font-medium">What people think about us</p>
          <div className="mt-8 md:hidden" id="review">
             <Swiper
                slidesPerView={1}

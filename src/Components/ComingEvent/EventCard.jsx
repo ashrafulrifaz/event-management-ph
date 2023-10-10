@@ -1,11 +1,19 @@
 import LocationImage from '../../assets/location.png'
 import TimeImage from '../../assets/clock.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+   duration: 2000, 
+   delay: 250, 
+   offset: 100,
+})
 
 const EventCard = ({event}) => {
    const {title, image, location, date} = event
 
    return (
-      <div className="rounded-xl relative hover:-translate-y-3 transition">
+      <div data-aos="fade-down" className="rounded-xl relative hover:-translate-y-3 transition">
          <img src={image} alt="event" className="w-full h-96 rounded-xl" />
          <div className="p-4 absolute bottom-0 bg-[rgba(0,0,0,0.5)] w-full text-white rounded-b-xl">
             <h2 className="text-xl font-semibold">{title}</h2>

@@ -1,11 +1,18 @@
 import { SwiperSlide } from 'swiper/react';
-// import './test.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+   duration: 2000, 
+   delay: 250, 
+   offset: 100,
+})
 
 const ReviewCard = ({review}) => {
    const {name, image, review_text, profession} = review
 
    return (
-      <div className="p-5 rounded-xl border border-violet-500">
+      <div data-aos="fade-down-right" className="p-5 rounded-xl border border-violet-500">
          <div className="flex gap-3 items-center">
             <img src={image} className="w-12 h-12 rounded-full" alt="user" />
             <div>

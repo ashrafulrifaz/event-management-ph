@@ -1,12 +1,20 @@
 import { Link } from "react-router-dom";
 import priceImg from '../../../assets/credit.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+   duration: 2000, 
+   delay: 250, 
+   offset: 100,
+})
 
 
 const ServiceCard = ({service}) => {
    const {id, name, image, price, description} = service
 
    return (
-      <div className="rounded-xl shadow-xl px-5 py-8 border-t-4 border-indigo-500">
+      <div data-aos="fade-up" className="rounded-xl shadow-xl px-5 py-8 border-t-4 border-indigo-500">
          <img src={image} alt="service" className="rounded-xl h-52 w-full" />
          <h3 className="text-xl font-semibold mt-3">{name}</h3>
          <p className="my-1 font-medium">{description}</p>

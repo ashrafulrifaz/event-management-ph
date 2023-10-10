@@ -3,7 +3,14 @@ import mailImg from '../../../assets/mail.png'
 import locationImg from '../../../assets/location.png'
 import { useState } from 'react';
 import { toast } from 'react-toastify';
-import PrivateRoute from '../../../Route/PrivateRoute';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+   duration: 2000, 
+   delay: 250, 
+   offset: 100,
+})
 
 const Contact = () => {
    const [isNameHave, setIsNameHave] = useState('')
@@ -58,8 +65,8 @@ const Contact = () => {
       <div className="mx-auto max-w-[90%] py-12">
          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
             <div>               
-               <h2 className="font-bold text-4xl">Upcoming Events</h2>
-               <p className="text-lg mt-2 font-medium">The service we can provide for you</p>
+               <h2 className="font-bold text-4xl">Get In Touch</h2>
+               <p className="text-lg mt-2 font-medium">These are our contact info</p>
                <ul className='mt-5 space-y-4'>
                   <li className='flex gap-3 items-center'>
                      <div className='w-7 p-1.5 rounded-xl bg-indigo-600'>
@@ -82,7 +89,7 @@ const Contact = () => {
                </ul>
             </div>
             <div>
-               <form onSubmit={handleContactForm} className='bg-slate-100 py-5 lg:py-8 px-3 lg:px-10 rounded-xl space-y-2 lg:space-y-5'>
+               <form data-aos="fade" onSubmit={handleContactForm} className='bg-slate-100 py-5 lg:py-8 px-3 lg:px-10 rounded-xl space-y-2 lg:space-y-5'>
                   <div>
                      <input name='name' type="text" placeholder='Enter your name' className='py-2 px-3 rounded-lg w-full focus:outline-none border border-slate-200 focus:border-slate-400' />
                      {

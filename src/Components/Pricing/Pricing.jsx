@@ -15,7 +15,7 @@ const Pricing = () => {
             <div>
                <div className='p-8 shadow-lg rounded-xl text-center lg:text-left'>
                   <h2 className='text-3xl font-bold text-black'>Choose Our Plans</h2>
-                  <p className="text-lg mt-3 font-medium">The service we can provide for you</p>
+                  <p className="text-lg mt-3 font-medium">Coose the plan what you need</p>
                   <ul className="grid gap-2 mt-6" id='pricing_nav'>
                      <li>
                         <NavLink onClick={() => setCategoryID(1)} className='text-lg font-semibold text-gray-600 hover:bg-slate-200 block px-4 py-1.5 rounded-xl'>Live Music</NavLink>
