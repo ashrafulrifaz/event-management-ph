@@ -3,468 +3,288 @@
      "category_id": "1",
      "name": "primary",
      "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
+       {"item": "Professional sound system setup"},
+       {"item": "Skilled live band performance"},
+       {"item": "Customizable setlist"},
+       {"item": "Stage lighting and effects"}
      ],
-     "item_price": "$500",
+     "item_price": "$600",
      "category": "Live Music"
    },
    {
      "category_id": "1",
      "name": "premium",
      "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
+       {"item": "All features of the Primary package"},
+       {"item": "Additional backup musicians"},
+       {"item": "Extended performance time"},
+       {"item": "Premium stage design"},
+       {"item": "Special effects"},
+       {"item": "VIP seating"}
      ],
-     "item_price": "$800",
-     "category": "Live Music"
-   },
-   {
-     "category_id": "1",
-     "name": "premium",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$800",
+     "item_price": "$1,000",
      "category": "Live Music"
    },
    {
      "category_id": "2",
      "name": "primary",
      "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
+       {"item": "Professional comedians"},
+       {"item": "Hilarious stand-up routines"},
+       {"item": "Audience engagement"},
+       {"item": "Comedy props and accessories"}
      ],
-     "item_price": "$400",
-     "category": "Comedy Show"
-   },
-   {
-     "category_id": "2",
-     "name": "Standard",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$400",
+     "item_price": "$500",
      "category": "Comedy Show"
    },
    {
      "category_id": "2",
      "name": "premium",
      "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
+       {"item": "All features of the Primary package"},
+       {"item": "Additional comedians"},
+       {"item": "Extended comedy show duration"},
+       {"item": "Special comedy sketches"},
+       {"item": "Interactive comedy games"},
+       {"item": "Customized jokes"},
+       {"item": "Live streaming option"}
      ],
-     "item_price": "$300",
+     "item_price": "$750",
      "category": "Comedy Show"
    },
    {
      "category_id": "3",
      "name": "primary",
      "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
+       {"item": "Professional magician"},
+       {"item": "Astonishing magic tricks"},
+       {"item": "Audience participation"},
+       {"item": "Magical props and illusions"}
      ],
-     "item_price": "$250",
+     "item_price": "$400",
      "category": "Magic Show"
    },
    {
      "category_id": "3",
      "name": "premium",
      "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
+       {"item": "All features of the Primary package"},
+       {"item": "Grand illusions"},
+       {"item": "Customized magic acts"},
+       {"item": "Enhanced stage setup"},
+       {"item": "Mind-bending mentalism"},
+       {"item": "Interactive magic workshops"},
+       {"item": "Premium magic accessories"}
      ],
-     "item_price": "$200",
+     "item_price": "$600",
      "category": "Magic Show"
    },
    {
-     "category_id": "3",
-     "name": "premium",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$200",
-     "category": "Magic Show"
+      "category_id": "4",
+      "name": "primary",
+      "features": [
+        {"item": "Life time technical support"},
+        {"item": "Award trophy design and production"},
+        {"item": "Red carpet event setup"},
+        {"item": "Celebrity hosts"},
+        {"item": "Audiovisual presentation"},
+        {"item": "VIP seating"}
+      ],
+      "item_price": "$600",
+      "category": "Award and Prize Ceremony"
    },
    {
-     "category_id": "4",
-     "name": "primary",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$500",
-     "category": "Award and Prize Ceremony"
+      "category_id": "4",
+      "name": "premium",
+      "features": [
+        {"item": "All features of the Primary package"},
+        {"item": "Exclusive VIP experience"},
+        {"item": "Customized awards"},
+        {"item": "Special guest appearances"},
+        {"item": "Professional photographers and videographers"},
+        {"item": "Live broadcast option"}
+      ],
+      "item_price": "$1,200",
+      "category": "Award and Prize Ceremony"
    },
    {
-     "category_id": "4",
-     "name": "Standard",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$500",
-     "category": "Award and Prize Ceremony"
+      "category_id": "5",
+      "name": "primary",
+      "features": [
+        {"item": "Theatre production coordination"},
+        {"item": "Skilled performers and actors"},
+        {"item": "Stage and costume design"},
+        {"item": "Lighting and sound effects"}
+      ],
+      "item_price": "$800",
+      "category": "Film Screenings and Premieres"
    },
    {
-     "category_id": "4",
-     "name": "premium",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$800",
-     "category": "Award and Prize Ceremony"
+      "category_id": "5",
+      "name": "premium",
+      "features": [
+        {"item": "All features of the Primary package"},
+        {"item": "Extended theatrical performance"},
+        {"item": "Special effects and pyrotechnics"},
+        {"item": "Exclusive behind-the-scenes tours"},
+        {"item": "Interactive workshops"},
+        {"item": "Post-show meet-and-greet with cast"},
+        {"item": "Premium seating options"}
+      ],
+      "item_price": "$1,000",
+      "category": "Film Screenings and Premieres"
    },
    {
-     "category_id": "5",
-     "name": "primary",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$400",
-     "category": "Film Screenings and Premieres"
+      "category_id": "6",
+      "name": "primary",
+      "features": [
+        {"item": "Life time technical support"},
+        {"item": "Professional stage setup"},
+        {"item": "Skilled performers"},
+        {"item": "Theatre props and costumes"}
+      ],
+      "item_price": "$600",
+      "category": "Theatre and Performing Arts"
    },
    {
-     "category_id": "5",
-     "name": "Standard",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$400",
-     "category": "Film Screenings and Premieres"
+      "category_id": "6",
+      "name": "premium",
+      "features": [
+        {"item": "All features of the Primary package"},
+        {"item": "Extended theatrical performance"},
+        {"item": "Special effects and pyrotechnics"},
+        {"item": "Interactive workshops"},
+        {"item": "Post-show meet-and-greet with cast"},
+        {"item": "Premium seating options"},
+        {"item": "Professional videography"}
+      ],
+      "item_price": "$1,000",
+      "category": "Theatre and Performing Arts"
    },
    {
-     "category_id": "5",
-     "name": "premium",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$300",
-     "category": "Film Screenings and Premieres"
+      "category_id": "7",
+      "name": "primary",
+      "features": [
+       {
+          "item": "Professional choreography"
+       },
+       {
+          "item": "Variety of dance styles"
+       },
+       {
+          "item": "Costume design and coordination"
+       },
+       {
+          "item": "Stage and lighting effects"
+       }
+      ],
+      "item_price": "$450",
+      "category": "Dance Show"
+    },
+    {
+      "category_id": "7",
+      "name": "Premium",
+      "features": [
+       {
+          "item": "All features of the Standard package"
+       },
+       {
+          "item": "Extended dance performance"
+       },
+       {
+          "item": "Special guest appearances"
+       },
+       {
+          "item": "Interactive dance workshops"
+       },
+       {
+          "item": "Exclusive backstage access"
+       }
+      ],
+      "item_price": "$750",
+      "category": "Dance Show"
+    },
+    {
+      "category_id": "8",
+      "name": "primary",
+      "features": [
+       {
+          "item": "Professional circus performers"
+       },
+       {
+          "item": "Thrilling acts and stunts"
+       },
+       {
+          "item": "Circus tent setup"
+       },
+       {
+          "item": "Audience engagement"
+       }
+      ],
+      "item_price": "$350",
+      "category": "Circus Spectacular"
+    },
+    {
+      "category_id": "8",
+      "name": "Premium",
+      "features": [
+       {
+          "item": "All features of the Standard package"
+       },
+       {
+          "item": "Extended circus performance"
+       },
+       {
+          "item": "Special effects and pyrotechnics"
+       },
+       {
+          "item": "Interactive circus workshops"
+       },
+       {
+          "item": "Exclusive backstage access"
+       }
+      ],
+      "item_price": "$600",
+      "category": "Circus Spectacular"
    },
    {
-     "category_id": "6",
-     "name": "primary",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$250",
-     "category": "Theatre and Performing Arts"
+      "category_id": "9",
+      "name": "primary",
+      "features": [
+       {
+          "item": "Professional athletes and teams"
+       },
+       {
+          "item": "Multiple sporting events"
+       },
+       {
+          "item": "Stadium or arena booking"
+       },
+       {
+          "item": "Live commentary and analysis"
+       }
+      ],
+      "item_price": "$600",
+      "category": "Sports Event"
    },
    {
-     "category_id": "6",
-     "name": "premium",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$200",
-     "category": "Theatre and Performing Arts"
-   },
-   {
-     "category_id": "6",
-     "name": "premium",
-     "features": [
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      },
-      {
-         "item": "Life time technical support"
-      }
-     ],
-     "item_price": "$200",
-     "category": "Theatre and Performing Arts"
+      "category_id": "",
+      "name": "Premium",
+      "features": [
+       {
+          "item": "All features of the Standard package"
+       },
+       {
+          "item": "VIP seating and hospitality"
+       },
+       {
+          "item": "Exclusive access to athletes"
+       },
+       {
+          "item": "Enhanced stadium experience"
+       }
+      ],
+      "item_price": "$900",
+      "category": "Sports Event"
    }
-]
+] 

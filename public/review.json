@@ -1,38 +1,38 @@
 [
-   {
-     "name": "John Smith",
-     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
-     "review_text": "Exceptional service! John is a true professional who made our event unforgettable. Exceptional service! John is a true professional who made our event unforgettable.",
-     "profession": "Event Planner"
-   },
-   {
-     "name": "Alice Johnson",
-     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
-     "review_text": "Alice's creativity and attention to detail transformed our wedding into a dream come true. Alice's creativity and attention to detail transformed our wedding into a dream come true.",
-     "profession": "Wedding Coordinator"
-   },
-   {
-     "name": "David Wilson",
-     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
-     "review_text": "David's musical talent added a magical touch to our special day. Highly recommended! David's musical talent added a magical touch to our special day. Highly recommended!",
-     "profession": "Musician"
-   },
-   {
-     "name": "Emily Davis",
-     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
-     "review_text": "Emily's floral arrangements were stunning. She truly has an eye for beauty. Emily's floral arrangements were stunning. She truly has an eye for beauty. Highly recommended!",
-     "profession": "Florist"
-   },
-   {
-     "name": "Michael Brown",
-     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
-     "review_text": "Michael's culinary expertise delighted our taste buds. A gourmet experience! Michael's culinary expertise delighted our taste buds. A gourmet experience! Highly recommended!",
-     "profession": "Chef"
-   },
-   {
-     "name": "Sophia Lee",
-     "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
-     "review_text": "Sophia's photography skills captured our memories perfectly. A true artist! Sophia's photography skills captured our memories perfectly. A true artist! Highly recommended!",
-     "profession": "Photographer"
-   }
-] 
+  {
+    "name": "John Smith",
+    "image": "https://i.ibb.co/717bgy7/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
+    "review_text": "Exceptional event planning! I love their management and customization. Highly recommended!",
+    "profession": "Businessman"
+  },
+  {
+    "name": "Alice Johnson",
+    "image": "https://i.ibb.co/F7zFSTj/aiony-haust-3-TLl-97-HNJo-unsplash.jpg",
+    "review_text": "Absolutely outstanding coordination! Their attention to detail and customization were superb. Highly recommended!",
+    "profession": "Lawyer"
+  },
+  {
+    "name": "David Wilson",
+    "image": "https://i.ibb.co/7Q4jVsy/mahdi-bafande-V-SGZ48bl20-unsplash.jpg",
+    "review_text": "Exceptional service! They made our entertainment event a huge success with their professional planning and execution. Highly recommended!",
+    "profession": "Doctor"
+  },
+  {
+    "name": "Emily Davis",
+    "image": "https://i.ibb.co/mG5G19n/vince-veras-AJIq-ZDAUD7-A-unsplash.jpg",
+    "review_text": "Breathtaking florals! Their attention to detail and customization were phenomenal. Recommended!",
+    "profession": "Mechanical Engineer"
+  },
+  {
+    "name": "Michael Brown",
+    "image": "https://i.ibb.co/hsH0s3g/linkedin-sales-solutions-p-At-A8xe-i-VM-unsplash.jpg",
+    "review_text": "Culinary excellence! Their dishes and customization added a gourmet touch. Highly recommended!",
+    "profession": "Businessman"
+  },
+  {
+    "name": "Sophia Lee",
+    "image": "https://i.ibb.co/1bw68GL/christopher-campbell-r-DEOVt-E7v-Os-unsplash.jpg",
+    "review_text": "Outstanding event management! They brought our charity fundraiser to life with their dedication and creativity. Highly recommended!",
+    "profession": "Civil Engineer"
+  }
+]

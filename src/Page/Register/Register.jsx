@@ -1,6 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
 import GoogleIcon from '../../assets/google.png'
-import GithubIcon from '../../assets/github.png'
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/Provider";
 import { GoogleAuthProvider, updateProfile } from "firebase/auth";
@@ -89,7 +88,10 @@ const Register = () => {
    const handleGoogleRegister = () => {
       const googleProvider = new GoogleAuthProvider()
       googleLogin(googleProvider)
-         .then(() => navigate('/'))
+         .then(() => {
+            toast("Registration Successful")
+            navigate('/')
+         })
    }
 
    return (

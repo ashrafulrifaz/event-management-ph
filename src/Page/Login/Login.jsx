@@ -28,7 +28,10 @@ const Login = () => {
    const handleGoogleLogin = () => {
       const googleProvider = new GoogleAuthProvider()
       googleLogin(googleProvider)
-         .then(() => navigate('/'))
+         .then(() => {
+            toast("Login Successful")
+            navigate('/')
+         })
    }
 
    return (
