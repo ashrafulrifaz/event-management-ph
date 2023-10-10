@@ -18,7 +18,7 @@ const PriceBox = ({price}) => {
                   <div className='w-6'>
                      <img src={checkImg} alt="check" className='w-5 border border-black rounded-full p-0.5' />
                   </div>
-                  <p className='font-medium text-lg'>Life time technical support</p>
+                  <p className='font-medium text-lg'>{feature.item}</p>
                </li>
                )}
             </ul>

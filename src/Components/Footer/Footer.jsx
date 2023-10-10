@@ -2,6 +2,7 @@ import facebook from '../../assets/facebook.png'
 import twitter from '../../assets/twitter.png'
 import instagram from '../../assets/instagram.png'
 import linkedin from '../../assets/linkedin.png'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
    return (
@@ -13,16 +14,16 @@ const Footer = () => {
                </div>
                <ul className="flex gap-5">
                   <li>
-                     <a href="#" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">About Us</a>
+                     <Link to="/about" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">About Us</Link>
                   </li>
                   <li>
-                     <a href="#" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">Services</a>
+                  <Link to="/services" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">Services</Link>
                   </li>
                   <li>
-                     <a href="#" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">Pricing</a>
+                  <Link to="/pricing" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">Pricing</Link>
                   </li>
                   <li>
-                     <a href="#" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">Contact</a>
+                  <Link to="/contact" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">Contact</Link>
                   </li>
                </ul>
             </div>

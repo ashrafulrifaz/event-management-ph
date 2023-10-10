@@ -12,7 +12,7 @@ const Provider = ({children}) => {
    const [loading, setLoading] = useState(true)
 
    useEffect(() => {
-      fetch('price.json')
+      fetch('https://ashrafulrifaz.github.io/api/price.json')
          .then(res => res.json())
          .then(data => setPriceData(data))
       

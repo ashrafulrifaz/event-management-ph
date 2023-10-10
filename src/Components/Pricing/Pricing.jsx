@@ -7,7 +7,6 @@ import { Link, NavLink } from 'react-router-dom';
 const Pricing = () => {
    const { priceData, categoryID, setCategoryID} = useContext(AuthContext)
    const currentPriceData = priceData.filter(data => categoryID == data.category_id)
-   console.log(categoryID, currentPriceData)
 
    return (
       <div className="py-10 max-w-[90%] mx-auto">

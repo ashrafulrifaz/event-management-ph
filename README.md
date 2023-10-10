@@ -1,8 +1,12 @@
-# React + Vite
+### **Question:** Write 3 project features
+**Answer:** Here are 3 features of this project...
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   * Use of react router to build the website
 
-Currently, two official plugins are available:
+   * Private Route
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   * Use of AOS for website animation
+
+   * Use of firebase for login and registration
+
+   * use of swipper js for slider
