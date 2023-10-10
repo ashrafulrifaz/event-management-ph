@@ -6,7 +6,7 @@ const PrivateRoute = ({children}) => {
    const {user, loading} = useContext(AuthContext)
 
    if(loading){
-      return <span>Loading</span>
+      return <p className='py-20 font-semibold text-2xl text-center'>Loading...</p>
    }
 
    if(user){

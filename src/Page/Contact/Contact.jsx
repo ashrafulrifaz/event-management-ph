@@ -1,9 +1,10 @@
-import phoneImg from '../../../assets/telephone.png'
-import mailImg from '../../../assets/mail.png'
-import locationImg from '../../../assets/location.png'
-import { useState } from 'react';
-import { toast } from 'react-toastify';
-import PrivateRoute from '../../../Route/PrivateRoute';
+import ContactInfoImage from '../../assets/contact-info.jpg'
+import FormImage from '../../assets/form.jpg'
+import phoneImg from '../../assets/telephone.png'
+import mailImg from '../../assets/mail.png'
+import locationImg from '../../assets/location.png'
+import { toast } from 'react-toastify'
+import { useState } from 'react'
 
 const Contact = () => {
    const [isNameHave, setIsNameHave] = useState('')
@@ -55,9 +56,9 @@ const Contact = () => {
    }
 
    return (
-      <div className="mx-auto max-w-[90%] py-12">
+      <div className='max-w-[90%] mx-auto py-10'>
          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
-            <div>               
+            <div className='order-last lg:order-none'>               
                <h2 className="font-bold text-4xl">Upcoming Events</h2>
                <p className="text-lg mt-2 font-medium">The service we can provide for you</p>
                <ul className='mt-5 space-y-4'>
@@ -65,24 +66,32 @@ const Contact = () => {
                      <div className='w-7 p-1.5 rounded-xl bg-indigo-600'>
                         <img src={phoneImg} className='w-6 h-auto ' alt="" />
                      </div>
-                     <span className='font-sans font-medium'>+880 01643876985</span>
+                     <p className='font-sans font-medium'><span className='font-semibold text-[17px]'>Phone:</span> +880 01643876985</p>
                   </li>
                   <li className='flex gap-3 items-center'>
                      <div className='w-7 p-1.5 rounded-xl bg-indigo-600'>
                         <img src={mailImg} className='w-6 h-auto ' alt="" />
                      </div>
-                     <span className='font-sans font-medium'>ashrafulislamrifaz@gmail.com</span>
+                     <p className='font-sans font-medium'><span className='font-semibold text-[17px]'>E-mail:</span> ashrafulislamrifaz@gmail.com</p>
                   </li>
                   <li className='flex gap-3 items-center'>
                      <div className='w-7 p-1.5 rounded-xl bg-indigo-600'>
                         <img src={locationImg} className='w-6 h-auto ' alt="" />
                      </div>
-                     <span className='font-sans font-medium'>NSTU Road, Sonapur, Noakhali, Bangladesh</span>
+                     <p className='font-sans font-medium'><span className='font-semibold text-[17px]'>Address:</span> NSTU Road, Sonapur, Noakhali, Bangladesh</p>
                   </li>
                </ul>
             </div>
             <div>
-               <form onSubmit={handleContactForm} className='bg-slate-100 py-5 lg:py-8 px-3 lg:px-10 rounded-xl space-y-2 lg:space-y-5'>
+               <img src={ContactInfoImage} className='w-full md:w-3/4 lg:w-full mx-auto' alt="" />
+            </div>
+         </div>
+         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
+            <div>
+               <img src={FormImage} className='w-full md:w-3/4 lg:w-full mx-auto' alt="" />
+            </div>
+            <div>
+               <form onSubmit={handleContactForm} className='bg-slate-100 py-4 md:py-8 px-5 md:px-10 rounded-xl space-y-5'>
                   <div>
                      <input name='name' type="text" placeholder='Enter your name' className='py-2 px-3 rounded-lg w-full focus:outline-none border border-slate-200 focus:border-slate-400' />
                      {
@@ -108,7 +117,7 @@ const Contact = () => {
                      }
                   </div>
                   <div>
-                  <button className='py-2.5 text- rounded-lg w-full bg-indigo-600 text-white font-medium'>Book Your Event</button>
+                     <button className='py-2.5 text- rounded-lg w-full bg-indigo-600 text-white font-medium'>Book Your Event</button>
                   </div>
                </form>
             </div>

@@ -7,27 +7,27 @@ const Footer = () => {
    return (
       <div className="border-t border-slate-200 py-10">
          <footer className=" max-w-[90%] mx-auto">
-            <div className="flex justify-between items-center">
-               <div className="col-span-2 pr-16">
+            <div className="flex flex-col lg:flex-row gap-4 justify-between items-center">
+               <div className="col-span-2">
                   <h1 className="text-3xl font-semibold"><span className="font-bold text-indigo-600">E</span>ven<span className="font-bold text-indigo-600">T</span>o</h1>
                </div>
                <ul className="flex gap-5">
                   <li>
-                     <a href="#" className="font-medium hover:text-indigo-600 text-lg text-slate-600">About Us</a>
+                     <a href="#" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">About Us</a>
                   </li>
                   <li>
-                     <a href="#" className="font-medium hover:text-indigo-600 text-lg text-slate-600">Services</a>
+                     <a href="#" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">Services</a>
                   </li>
                   <li>
-                     <a href="#" className="font-medium hover:text-indigo-600 text-lg text-slate-600">Pricing</a>
+                     <a href="#" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">Pricing</a>
                   </li>
                   <li>
-                     <a href="#" className="font-medium hover:text-indigo-600 text-lg text-slate-600">Contact</a>
+                     <a href="#" className="font-medium hover:text-indigo-600 text-base lg:text-lg text-slate-600">Contact</a>
                   </li>
                </ul>
             </div>
             <hr className="my-5" />
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col lg:flex-row gap-4 justify-between items-center">
                <p className="text-[17px]">© 2023 EvenTo All Rights Reserved</p>
                <ul className="flex gap-5">
                   <li>

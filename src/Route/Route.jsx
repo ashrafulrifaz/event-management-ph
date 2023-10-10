@@ -7,6 +7,9 @@ import Layout from "../Components/Layout/Layout";
 import Login from "../Page/Login/Login";
 import Register from "../Page/Register/Register";
 import PrivateRoute from "./PrivateRoute";
+import Pricing from "../Page/Pricing/Pricing";
+import Contact from "../Page/Contact/Contact";
+import Services from "../Page/Services/Services";
 
 const Route = createBrowserRouter([
    {
@@ -23,9 +26,13 @@ const Route = createBrowserRouter([
             element: <About></About>
          },
          {
+            path: '/services',
+            element: <Services></Services>
+         },
+         {
             path: '/services/:id',
             element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
-            loader: () => fetch('services.json')
+            loader: () => fetch('https://ashrafulrifaz.github.io/api/services.json')
          },
          {
             path: '/login',
@@ -34,6 +41,14 @@ const Route = createBrowserRouter([
          {
             path: '/register',
             element: <Register></Register>
+         },
+         {
+            path: '/pricing',
+            element: <PrivateRoute><Pricing></Pricing></PrivateRoute>
+         },
+         {
+            path: '/contact',
+            element: <PrivateRoute><Contact></Contact></PrivateRoute>
          }
       ]
    }

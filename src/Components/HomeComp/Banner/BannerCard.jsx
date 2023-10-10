@@ -4,7 +4,7 @@ const BannerCard = ({banner}) => {
    const {title, description} = banner
 
    return (
-      <div className="pb-10 pt-16 h-screen grid content-center -mt-20 banner">
+      <div className="pb-10 pt-16 h-screen grid content-center banner">
          <div className="text-center space-y-5 max-w-[90%] mx-auto">
             <h2 className="text-6xl font-bold text-white">{title}</h2>
             <p className="text-slate-300 text-lg px-44">{description}</p>

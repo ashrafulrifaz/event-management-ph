@@ -1,7 +1,7 @@
 [
    {
      "category_id": "1",
-     "name": "Standard",
+     "name": "primary",
      "features": [
       {
          "item": "Life time technical support"
@@ -19,7 +19,8 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$500"
+     "item_price": "$500",
+     "category": "Live Music"
    },
    {
      "category_id": "1",
@@ -47,7 +48,60 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$800"
+     "item_price": "$800",
+     "category": "Live Music"
+   },
+   {
+     "category_id": "1",
+     "name": "premium",
+     "features": [
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      }
+     ],
+     "item_price": "$800",
+     "category": "Live Music"
+   },
+   {
+     "category_id": "2",
+     "name": "primary",
+     "features": [
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      }
+     ],
+     "item_price": "$400",
+     "category": "Comedy Show"
    },
    {
      "category_id": "2",
@@ -69,7 +123,8 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$400"
+     "item_price": "$400",
+     "category": "Comedy Show"
    },
    {
      "category_id": "2",
@@ -97,11 +152,12 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$300"
+     "item_price": "$300",
+     "category": "Comedy Show"
    },
    {
      "category_id": "3",
-     "name": "Standard",
+     "name": "primary",
      "features": [
       {
          "item": "Life time technical support"
@@ -119,7 +175,8 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$250"
+     "item_price": "$250",
+     "category": "Magic Show"
    },
    {
      "category_id": "3",
@@ -147,7 +204,60 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$200"
+     "item_price": "$200",
+     "category": "Magic Show"
+   },
+   {
+     "category_id": "3",
+     "name": "premium",
+     "features": [
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      }
+     ],
+     "item_price": "$200",
+     "category": "Magic Show"
+   },
+   {
+     "category_id": "4",
+     "name": "primary",
+     "features": [
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      }
+     ],
+     "item_price": "$500",
+     "category": "Award and Prize Ceremony"
    },
    {
      "category_id": "4",
@@ -169,7 +279,8 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$500"
+     "item_price": "$500",
+     "category": "Award and Prize Ceremony"
    },
    {
      "category_id": "4",
@@ -197,7 +308,31 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$800"
+     "item_price": "$800",
+     "category": "Award and Prize Ceremony"
+   },
+   {
+     "category_id": "5",
+     "name": "primary",
+     "features": [
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      }
+     ],
+     "item_price": "$400",
+     "category": "Film Screenings and Premieres"
    },
    {
      "category_id": "5",
@@ -219,7 +354,8 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$400"
+     "item_price": "$400",
+     "category": "Film Screenings and Premieres"
    },
    {
      "category_id": "5",
@@ -247,11 +383,12 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$300"
+     "item_price": "$300",
+     "category": "Film Screenings and Premieres"
    },
    {
      "category_id": "6",
-     "name": "Standard",
+     "name": "primary",
      "features": [
       {
          "item": "Life time technical support"
@@ -269,7 +406,8 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$250"
+     "item_price": "$250",
+     "category": "Theatre and Performing Arts"
    },
    {
      "category_id": "6",
@@ -297,6 +435,36 @@
          "item": "Life time technical support"
       }
      ],
-     "item_price": "$200"
+     "item_price": "$200",
+     "category": "Theatre and Performing Arts"
+   },
+   {
+     "category_id": "6",
+     "name": "premium",
+     "features": [
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      },
+      {
+         "item": "Life time technical support"
+      }
+     ],
+     "item_price": "$200",
+     "category": "Theatre and Performing Arts"
    }
 ]

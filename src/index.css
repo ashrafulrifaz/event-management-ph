@@ -4,12 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+html, body{
    font-family: 'Catamaran', sans-serif;
-}
-
-#header_nav li a .active {
-   color: #4F46E5!important;
+   overflow-x: hidden;
+   max-width: 100%;
 }
 
 #header_nav li a::after{
@@ -24,4 +22,19 @@ body{
 
 #header_nav li a:hover::after{
    width: 100%;
+}
+
+#header_nav li .active {
+   color: #4F46E5!important;
+}
+
+/* #pricing_nav li .active {
+   background-color: #E2E8F0!important;
+} */
+
+@media only screen and (min-width: 500px) {
+   #home_services .swiper-slide {
+      width: 100%!important;
+      margin-right: 0!important;
+   }
 }

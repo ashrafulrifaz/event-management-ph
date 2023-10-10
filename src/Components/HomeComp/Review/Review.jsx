@@ -7,7 +7,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import ReviewCard from "./ReviewCard"
 import { Autoplay, Pagination } from 'swiper/modules';
-// import ReviewCard from "./ReviewCard";
 
 const Review = () => {
    const [reviewData, setReviewData] = useState([])
@@ -22,7 +21,45 @@ const Review = () => {
       <div className="py-10 max-w-[90%] mx-auto">         
          <h2 className="text-center font-bold text-4xl">Upcoming Events</h2>
          <p className="text-center text-lg mt-3 font-medium">The service we can provide for you</p>
-         <div className="mt-8">
+         <div className="mt-8 md:hidden" id="review">
+            <Swiper
+               slidesPerView={1}
+               spaceBetween={30}
+               autoplay={{
+                  delay: 4500,
+                  disableOnInteraction: false,
+               }}
+               pagination={{
+               clickable: true,
+               }}
+               modules={[Pagination, Autoplay]}
+               className="mySwiper mt-10"
+            >
+               {
+                  reviewData.map((review, idx) => <SwiperSlide className="w-full" key={idx}><ReviewCard review={review}></ReviewCard></SwiperSlide>)
+               }
+            </Swiper>
+         </div>
+         <div className="mt-8 hidden md:block lg:hidden" id="review">
+            <Swiper
+               slidesPerView={2}
+               spaceBetween={30}
+               autoplay={{
+                  delay: 4500,
+                  disableOnInteraction: false,
+               }}
+               pagination={{
+               clickable: true,
+               }}
+               modules={[Pagination, Autoplay]}
+               className="mySwiper mt-10"
+            >
+               {
+                  reviewData.map((review, idx) => <SwiperSlide className="w-full" key={idx}><ReviewCard review={review}></ReviewCard></SwiperSlide>)
+               }
+            </Swiper>
+         </div>
+         <div className="mt-8 hidden lg:block" id="review">
             <Swiper
                slidesPerView={3}
                spaceBetween={30}
@@ -37,7 +74,7 @@ const Review = () => {
                className="mySwiper mt-10"
             >
                {
-                  reviewData.map((review, idx) => <SwiperSlide key={idx}><ReviewCard review={review}></ReviewCard></SwiperSlide>)
+                  reviewData.map((review, idx) => <SwiperSlide className="w-full" key={idx}><ReviewCard review={review}></ReviewCard></SwiperSlide>)
                }
             </Swiper>
          </div>

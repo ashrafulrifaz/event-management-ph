@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from 'react';
-import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
+import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
 import auth from '../firebase.init';
 
 export const AuthContext = createContext(null)
@@ -7,12 +7,9 @@ export const AuthContext = createContext(null)
 const Provider = ({children}) => {
    const [user, setUser] = useState(null)
    const [priceData, setPriceData] = useState([])
-   const [categoryItem, setCategoryItem] = useState([])
    const [eventItem, setEventItem] = useState([])
    const [categoryID, setCategoryID] = useState(1)
    const [loading, setLoading] = useState(true)
-
-   console.log(user);
 
    useEffect(() => {
       fetch('price.json')
@@ -22,10 +19,6 @@ const Provider = ({children}) => {
       fetch('event.json')
          .then(response => response.json())
          .then(data => setEventItem(data))
-      
-      fetch('category.json')
-         .then(response => response.json())
-         .then(data => setCategoryItem(data))
 
       const unSubscribe = onAuthStateChanged(auth, currentUser => {
          setUser(currentUser)
@@ -51,7 +44,11 @@ const Provider = ({children}) => {
       return signInWithPopup(auth, googleProvider)
    }
 
-   const info = {priceData, categoryItem, categoryID, setCategoryID, eventItem, createUser, signIn, user, loading, googleLogin }
+   const signOutUser = () => {
+      signOut(auth)
+   }
+
+   const info = {priceData, categoryID, setCategoryID, eventItem, createUser, signIn, user, loading, googleLogin, signOutUser }
 
    return (
       <AuthContext.Provider value={info}>

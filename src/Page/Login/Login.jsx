@@ -1,11 +1,13 @@
 import GoogleIcon from '../../assets/google.png'
-import GithubIcon from '../../assets/github.png'
 import { Link, useNavigate } from 'react-router-dom';
 import { useContext, useState } from 'react';
 import { AuthContext } from '../../Provider/Provider';
+import { GoogleAuthProvider } from 'firebase/auth';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
-   const {signIn} = useContext(AuthContext)
+   const {signIn, googleLogin} = useContext(AuthContext)
    const navigate = useNavigate()
    const [erroMessage, setErroMessage] = useState('')
    const [showPass, setShowPass] = useState(false)
@@ -16,15 +18,24 @@ const Login = () => {
       const password = e.target.password.value;
 
       signIn(email, password)
-         .then(() => navigate('/'))
+         .then(() => {
+            toast("Login Successful")
+            navigate('/')
+         })
          .catch(error => setErroMessage(error.message))
+   }
+
+   const handleGoogleLogin = () => {
+      const googleProvider = new GoogleAuthProvider()
+      googleLogin(googleProvider)
+         .then(() => navigate('/'))
    }
 
    return (
       <div className="py-12">
          <div className="max-w-[85%] mx-auto">
-            <div className="py-12">
-               <div className="w-1/2 mx-auto shadow-lg p-16 rounded-xl">
+            <div className="py-6 md:py-12">
+               <div className="w-full md:w-3/4 lg:w-1/2 mx-auto shadow-lg p-5 md:p-16 rounded-xl border-t-4 border-indigo-500">
                   <h2 className="text-3xl font-medium text-primary text-center">Login your account</h2>
                   <form onSubmit={handleLogin} className='mt-10'>
                      <div className="space-y-5">
@@ -42,9 +53,8 @@ const Login = () => {
                         }
                         <button className="bg-indigo-600 py-2.5 text-white font-medium w-full rounded">Login</button>
                         <p className="text-center text-[#706F6F] font-medium">Do not have an account ? <Link className='text-indigo-600 font-semibold hover:underline' to="/register">Register</Link></p>
-                        <div className="flex gap-3">
-                           <button className="text-indigo-600 font-medium border border-blue-500 rounded py-1 w-full flex gap-2 items-center justify-center"><img src={GoogleIcon} className='w-4' /><span>Login with Google</span></button>
-                           <button className="text-primary font-medium border border-primary rounded py-1 w-full flex gap-2 items-center justify-center"><img src={GithubIcon} className='w-4' /><span>Login with Github</span></button>
+                        <div>
+                           <button onClick={handleGoogleLogin} className="text-indigo-600 font-medium border border-blue-500 rounded py-1.5 w-full flex gap-2 items-center justify-center"><img src={GoogleIcon} className='w-4' /><span>Login with Google</span></button>
                         </div>
                      </div>
                   </form>
